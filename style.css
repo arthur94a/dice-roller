@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.side {
+    display: none;
+}
+
+.side.show {
+    display: block;
+}
+
+.btn-roll {
+    margin: 10px auto 0;
+    display: block;
+    padding: 10px 15px;
+    width: 150px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    box-shadow: 1px 2px 3px rgba(84, 84, 84);
+    font-weight: bold;
+    color: #444444;
+}
+
+.btn-roll:hover {
+    cursor: pointer;
+}
+
+.btn-roll:active {
+    background-color: #c7c7c7;
+}
